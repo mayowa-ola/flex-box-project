@@ -11,7 +11,7 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
-    border-bottom: var(--color-grey-dark-1);
+    border-bottom: 1px solid var(--color-grey-dark-1);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,9 +25,14 @@
 .sidebar {
     background-color: var(--color-grey-dark-1);
     flex: 0 0 18%; //flex-grow flex-shrink flex-basis(specify the width of the flex-box)
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     background-color: #fff;
-    flex:1 //this make the make take all the available space of the width
+    flex:1; //this make the make take all the available space of the width
+    height:1000px;
+
 }
